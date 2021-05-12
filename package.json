@@ -7,8 +7,10 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
   },
   "lint-staged": {
     "*.{js,vue}": ["prettier --write", "git add"]
