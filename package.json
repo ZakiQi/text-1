@@ -9,11 +9,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "lint-staged"
     }
   },
   "lint-staged": {
-    "*.{js,vue}": ["prettier --write", "git add"]
+    "src/**/*.js": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "core-js": "^3.6.5",
