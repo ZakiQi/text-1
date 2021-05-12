@@ -14,7 +14,7 @@
     }
   },
   "lint-staged": {
-    "*.vue": "prettier --write --ignore-unknown"
+    "*.{js,vue}": ["prettier --write", "git add"]
   },
   "dependencies": {
     "core-js": "^3.6.5",
