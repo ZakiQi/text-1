@@ -27,7 +27,8 @@ export default {
 }
 </style>
 
-<style lang="sass" scoped>
-.img-style
-  margin: 100px;
+<style lang="scss">
+.img-style{
+  margin: 200px;
+}
 </style>

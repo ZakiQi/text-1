@@ -1,5 +1,4 @@
 module.exports = {
-  // trailingComma: 'all',
   // 缩进
   tabWidth: 2,
   // 末尾分号

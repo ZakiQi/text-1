@@ -14,7 +14,10 @@
     }
   },
   "lint-staged": {
-    "*.{js,vue}": ["prettier --write", "git add"]
+    "*.{js,vue}": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "dependencies": {
     "core-js": "^3.6.5",
