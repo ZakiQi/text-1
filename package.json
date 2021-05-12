@@ -11,10 +11,7 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,vue,ts}": [
-      "vue-cli-service lint",
-      "git add"
-    ]
+    "*.{js,vue}": ["prettier --write", "git add"]
   },
   "dependencies": {
     "core-js": "^3.6.5",
